@@ -38,6 +38,7 @@ Partial Class Recetas
         Me.btnLlenar = New System.Windows.Forms.Button()
         Me.btnSubir = New System.Windows.Forms.Button()
         Me.btnCerrar = New System.Windows.Forms.Button()
+        Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.dgRecetas, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -190,11 +191,22 @@ Partial Class Recetas
         Me.btnCerrar.Text = "Cerrar"
         Me.btnCerrar.UseVisualStyleBackColor = True
         '
+        'Button1
+        '
+        Me.Button1.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Button1.Location = New System.Drawing.Point(850, 373)
+        Me.Button1.Name = "Button1"
+        Me.Button1.Size = New System.Drawing.Size(169, 76)
+        Me.Button1.TabIndex = 16
+        Me.Button1.Text = "Consultar recetas en servidor"
+        Me.Button1.UseVisualStyleBackColor = True
+        '
         'Recetas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1055, 571)
+        Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.btnCerrar)
         Me.Controls.Add(Me.btnSubir)
         Me.Controls.Add(Me.btnLlenar)
@@ -235,4 +247,5 @@ Partial Class Recetas
     Friend WithEvents btnLlenar As Button
     Friend WithEvents btnSubir As Button
     Friend WithEvents btnCerrar As Button
+    Friend WithEvents Button1 As Button
 End Class
