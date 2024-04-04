@@ -46,11 +46,13 @@ Partial Class Recetas
         '
         Me.dgRecetas.AllowUserToAddRows = False
         Me.dgRecetas.AllowUserToResizeColumns = False
+        Me.dgRecetas.AutoSizeColumnsMode = System.Windows.Forms.DataGridViewAutoSizeColumnsMode.AllCells
+        Me.dgRecetas.AutoSizeRowsMode = System.Windows.Forms.DataGridViewAutoSizeRowsMode.AllCells
         Me.dgRecetas.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize
         Me.dgRecetas.Location = New System.Drawing.Point(12, 169)
         Me.dgRecetas.Name = "dgRecetas"
         Me.dgRecetas.RowHeadersVisible = False
-        Me.dgRecetas.Size = New System.Drawing.Size(802, 390)
+        Me.dgRecetas.Size = New System.Drawing.Size(879, 390)
         Me.dgRecetas.TabIndex = 0
         '
         'txtNombre
@@ -164,7 +166,7 @@ Partial Class Recetas
         'btnLlenar
         '
         Me.btnLlenar.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnLlenar.Location = New System.Drawing.Point(850, 169)
+        Me.btnLlenar.Location = New System.Drawing.Point(897, 169)
         Me.btnLlenar.Name = "btnLlenar"
         Me.btnLlenar.Size = New System.Drawing.Size(169, 76)
         Me.btnLlenar.TabIndex = 13
@@ -174,7 +176,7 @@ Partial Class Recetas
         'btnSubir
         '
         Me.btnSubir.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnSubir.Location = New System.Drawing.Point(850, 260)
+        Me.btnSubir.Location = New System.Drawing.Point(897, 260)
         Me.btnSubir.Name = "btnSubir"
         Me.btnSubir.Size = New System.Drawing.Size(169, 76)
         Me.btnSubir.TabIndex = 14
@@ -184,7 +186,7 @@ Partial Class Recetas
         'btnHome
         '
         Me.btnHome.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnHome.Location = New System.Drawing.Point(850, 483)
+        Me.btnHome.Location = New System.Drawing.Point(897, 483)
         Me.btnHome.Name = "btnHome"
         Me.btnHome.Size = New System.Drawing.Size(169, 76)
         Me.btnHome.TabIndex = 15
@@ -194,7 +196,7 @@ Partial Class Recetas
         'Button1
         '
         Me.Button1.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Button1.Location = New System.Drawing.Point(850, 373)
+        Me.Button1.Location = New System.Drawing.Point(897, 373)
         Me.Button1.Name = "Button1"
         Me.Button1.Size = New System.Drawing.Size(169, 76)
         Me.Button1.TabIndex = 16
@@ -205,7 +207,7 @@ Partial Class Recetas
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(6.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
-        Me.ClientSize = New System.Drawing.Size(1055, 571)
+        Me.ClientSize = New System.Drawing.Size(1078, 571)
         Me.Controls.Add(Me.Button1)
         Me.Controls.Add(Me.btnHome)
         Me.Controls.Add(Me.btnSubir)

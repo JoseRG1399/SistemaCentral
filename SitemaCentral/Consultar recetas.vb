@@ -68,11 +68,12 @@ Public Class Consultar_recetas
 
     Public Sub agregarPedido()
         Dim nombreReceta = cbbxSelectRecetas.Text
+        Dim departamento = cbbxDepartamentos.Text
         Try
             Dim Adaptador11 As New SqlDataAdapter
             Dim tabla11 As New DataTable
             Dim buscar11 As String
-            buscar11 = ("SELECT * FROM Recetas WHERE Receta='" & nombreReceta & "' ORDER BY Numero ASC")
+            buscar11 = ("SELECT * FROM Recetas WHERE Departamento = '" & departamento & "' AND Receta='" & nombreReceta & "' ORDER BY Numero ASC")
             Adaptador11 = New SqlDataAdapter(buscar11, conexionSQL)
             tabla11 = New DataTable
             Adaptador11.Fill(tabla11)

@@ -113,4 +113,10 @@ Public Class Recetas
             ' Form1 ya no está activo.
         End If
     End Sub
+
+    Private Sub btnHome_Click(sender As Object, e As EventArgs) Handles btnHome.Click
+        Form1.Show()
+        Me.Hide()
+
+    End Sub
 End Class
