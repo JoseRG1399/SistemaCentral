@@ -35,3 +35,4 @@ C:\Users\PCDEV\source\repos\SitemaCentral\SitemaCentral\obj\Debug\SitemaCentral.
 C:\Users\PCDEV\source\repos\SitemaCentral\SitemaCentral\obj\Debug\SitemaCentral.VerificarProductos.resources
 C:\Users\PCDEV\source\repos\SitemaCentral\SitemaCentral\obj\Debug\SitemaCentral.GestionProductos.resources
 C:\Users\PCDEV\source\repos\SitemaCentral\SitemaCentral\obj\Debug\SitemaCentral.Recetas.resources
+C:\Users\PCDEV\source\repos\SitemaCentral\SitemaCentral\obj\Debug\SitemaCentral.Consultar_recetas.resources

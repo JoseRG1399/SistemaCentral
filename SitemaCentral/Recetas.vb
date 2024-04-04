@@ -15,6 +15,7 @@ Public Class Recetas
                 MsgBox("Debe haber una receta cargada en la lista")
             Else
                 SubirRecetas()
+                MsgBox("Receta subida correctamente")
             End If
         End If
     End Sub
@@ -99,5 +100,17 @@ Public Class Recetas
 
     End Sub
 
+    Private Sub Button1_Click(sender As Object, e As EventArgs) Handles Button1.Click
+        Consultar_recetas.Show()
+        Me.Hide()
 
+    End Sub
+
+    Private Sub Recetas_FormClosing(sender As Object, e As FormClosingEventArgs) Handles Me.FormClosing
+        If Application.OpenForms().OfType(Of Form1).Any() Then
+            Form1.Show()
+        Else
+            ' Form1 ya no está activo.
+        End If
+    End Sub
 End Class

@@ -217,6 +217,9 @@
     <EmbeddedResource Include="Choferes.resx">
       <DependentUpon>Choferes.vb</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Consultar recetas.resx">
+      <DependentUpon>Consultar recetas.vb</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.vb</DependentUpon>
     </EmbeddedResource>

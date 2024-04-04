@@ -37,7 +37,7 @@ Partial Class Recetas
         Me.Label6 = New System.Windows.Forms.Label()
         Me.btnLlenar = New System.Windows.Forms.Button()
         Me.btnSubir = New System.Windows.Forms.Button()
-        Me.btnCerrar = New System.Windows.Forms.Button()
+        Me.btnHome = New System.Windows.Forms.Button()
         Me.Button1 = New System.Windows.Forms.Button()
         CType(Me.dgRecetas, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
@@ -181,15 +181,15 @@ Partial Class Recetas
         Me.btnSubir.Text = "Subir receta al servidor"
         Me.btnSubir.UseVisualStyleBackColor = True
         '
-        'btnCerrar
+        'btnHome
         '
-        Me.btnCerrar.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.btnCerrar.Location = New System.Drawing.Point(850, 483)
-        Me.btnCerrar.Name = "btnCerrar"
-        Me.btnCerrar.Size = New System.Drawing.Size(169, 76)
-        Me.btnCerrar.TabIndex = 15
-        Me.btnCerrar.Text = "Cerrar"
-        Me.btnCerrar.UseVisualStyleBackColor = True
+        Me.btnHome.Font = New System.Drawing.Font("Arial", 14.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.btnHome.Location = New System.Drawing.Point(850, 483)
+        Me.btnHome.Name = "btnHome"
+        Me.btnHome.Size = New System.Drawing.Size(169, 76)
+        Me.btnHome.TabIndex = 15
+        Me.btnHome.Text = "Cerrar"
+        Me.btnHome.UseVisualStyleBackColor = True
         '
         'Button1
         '
@@ -207,7 +207,7 @@ Partial Class Recetas
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
         Me.ClientSize = New System.Drawing.Size(1055, 571)
         Me.Controls.Add(Me.Button1)
-        Me.Controls.Add(Me.btnCerrar)
+        Me.Controls.Add(Me.btnHome)
         Me.Controls.Add(Me.btnSubir)
         Me.Controls.Add(Me.btnLlenar)
         Me.Controls.Add(Me.Label6)
@@ -246,6 +246,6 @@ Partial Class Recetas
     Friend WithEvents Label6 As Label
     Friend WithEvents btnLlenar As Button
     Friend WithEvents btnSubir As Button
-    Friend WithEvents btnCerrar As Button
+    Friend WithEvents btnHome As Button
     Friend WithEvents Button1 As Button
 End Class
